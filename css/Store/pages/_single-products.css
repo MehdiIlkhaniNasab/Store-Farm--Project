@@ -1,3 +1,6 @@
+/* LAYOUTS CSS */
+@import '../layouts/_description.css';
+
 .product-details{
     padding: 8rem 0 0;
 }

@@ -5,7 +5,6 @@ html{
 body{
     font-family: var(--font-primary);
     font-size: var(--font-size-default);
-    overflow-x: hidden;
 }
 
 .ellipse-text{

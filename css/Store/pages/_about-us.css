@@ -1,3 +1,9 @@
+/* LAYOUTS CSS */
+@import '../layouts/_description.css';
+@import '../layouts/_discount.css';
+@import '../layouts/_our-team.css';
+
+
 .social{
     display: flex;
     gap: 0.5rem;
