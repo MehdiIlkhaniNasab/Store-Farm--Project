@@ -1,0 +1,40 @@
+.services{
+    padding: 8rem 6vw;
+    background-color: var(--light);
+}
+
+.services__item{
+    flex-shrink: 1;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto minmax(max-content, 1fr) ;
+    align-items: center;
+    grid-gap: 1rem 2.5rem;
+}
+
+.servicess__title{
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.servicess__text{
+    font-weight: light;
+    font-size: 1.4rem;
+}
+
+.services__icon{
+    grid-row: 1 / span 2;
+    width: 7rem;
+    height: 7rem;
+    fill: var(--orange);
+    border: 2px dotted var(--orange);
+    border-radius: 50%;
+    padding: 1.5rem;
+}
+
+
+.dark .services{
+    background-color: var(--secondry);
+    color: var(--light);
+    border-bottom: 1px solid var(--secondry-light);
+}

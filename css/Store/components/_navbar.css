@@ -1,0 +1,52 @@
+
+.header__logo{
+    width: 15rem;
+    height: 5rem;
+}
+
+
+.nav-link{
+    color: var(--white) !important;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.4s;
+}
+
+
+.nav-link:hover{
+    color: var(--orange) !important;
+} 
+
+
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+
+.haeder__icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: currentColor;
+}
+
+/* DARK MODE BOX */
+.dark-mode__input{
+    display: none;
+}
+
+.dark-mode__label{
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.dark-mode__icon{
+    width: 3rem;
+    height: 3rem;
+    fill: var(--white);
+}
+
+
+.hidden-element{
+    display: none;
+}
+/* END DARK MODE BOX */

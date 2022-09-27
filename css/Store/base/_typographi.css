@@ -1,0 +1,22 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-default);
+}
+
+.ellipse-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 75em){
+    html{
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,12 @@
+.supporters{
+    margin-top: 4rem;
+    padding: 6rem 0;
+    background-color: var(--light);
+}
+
+/* DARK MODE */
+.dark .supporters{
+    background-color: var(--secondry-light);
+    
+}
+/* END DARK MODE */

@@ -1,0 +1,7 @@
+/* LAYOUTS CSS */
+@import 'layouts/_description.css';
+@import 'layouts/_discount.css';
+@import 'layouts/_our-team.css';
+
+/* PAGES CSS */
+@import 'pages/_about-us.css';

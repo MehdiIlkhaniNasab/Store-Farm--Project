@@ -1,0 +1,57 @@
+.discount{
+    padding: 8rem 0;
+    margin:  0 0 4rem;
+    background-image: url(../../../img/store/1.png) ;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-180deg);
+}
+.discount__content{
+    transform: rotate(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.discount__title{
+    font-size: 4rem;
+    width: 50%;
+    line-height: 7rem;
+}
+
+.discount__text{
+    font-size: 2.5rem;
+}
+
+.discount__value{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* DARK MODE */
+.dark .discount{
+    border-top: 1px solid var(--secondry-light);
+    border-bottom: 1px solid var(--secondry-light);
+}
+/* END DARK MODE */
+
+@media only screen and (max-width: 62em) {
+    .discount{
+       background-color: var(--gray-dark-low);
+        background-image: none;
+    }
+
+    .discount__content{
+        text-align: center;
+        align-items: center;
+        justify-content: start;
+        gap: 1.5rem;
+    }
+
+    .discount__title{
+        font-size: 4rem;
+        width: 70%;
+    }
+}

@@ -1,0 +1,24 @@
+.nav-custom-link{
+    color: var(--secondry) !important;
+}
+
+.nav-custom-link.active{
+    color: var(--orange) ;
+}
+
+.tab-pane{
+    padding: 4rem 0;
+}
+
+
+/* DARK MODE */
+.dark .nav-custom-link{
+    background-color: var(--secondry-light) ;
+    color: var(--gray-dark-low) !important;
+}
+
+.dark .nav-custom-link.active{
+    background-color: var(--light);
+    color: var(--orange) !important;
+}
+/* END DARK MODE */

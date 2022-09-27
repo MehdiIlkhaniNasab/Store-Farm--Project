@@ -1,0 +1,59 @@
+.btn-custome{
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-custome:active{
+    transform: translateY(5px);
+}
+
+.btn-custome-orange{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn-custome-orange:hover{
+    background-color: var(--secondry);
+    color: var(--orange);
+}
+
+.btn-custome-secondry{
+    background-color: var(--secondry);
+    color: var(--orange);
+}
+.btn-custome-secondry:hover{
+    background-color: var(--orange);
+    color: var(--light);
+}
+
+.btn-custome-outline{
+    border: 2px solid var(--orange);
+    background-color: transparent;
+    color: var(--white);
+}
+
+.btn-custome-outline:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.landing__btn-customes{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+@media only screen and (max-width: 75em) {
+    .btn-custome{
+        padding: 1.5rem 3.5rem ;
+    }
+}

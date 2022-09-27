@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/store/favicon.png">
+    <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Libararies/swiper.css">
+    <link rel="stylesheet" href="css/Store/store.css">
+    <link rel="stylesheet" href="css/Store/home.css">
+    <title>فروتخا</title>
+</head>
+
+<body dir="rtl" class="">
+
+    <!-- TOP NAVBAR -->
+    <div class="container-fluid   px-0">
+        <nav class="navbar navbar-expand-md   navbar-dark bg-dark fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#">
+                    <img src="img/store/logo.png" alt="Fruit Logo" class="header__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse  navbar-collapse py-5 py-md-0" id="header">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">خانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">محصولات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="article.html">خبر ها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">ارتباط با ما</a>
+                        </li>
+                        <li class="nav-item " id="nav-item-register">
+                            <a class="nav-link" href="../user/register-user.html">ثبت نام</a>
+                        </li>
+                        <li class="nav-item d-none" id="nav-item-dashboard">
+                            <a class="nav-link" href="../user/users-panel.html">داشبورد پنل</a>
+                        </li>
+                    </ul>
+                    <div class="header__icons mt-4 mt-md-0 gap-4">
+                        <div class="dark-mode">
+                            <input type="checkbox" name="" id="dark-mode__input" class="dark-mode__input">
+                            <label for="dark-mode__input" class="dark-mode__label mx-0">
+                                <svg class="dark-mode__icon dark-mode__moon" title="تم تاریک">
+                                    <use xlink:href="fonts/sprite.svg#icon-moon"></use>
+                                </svg>
+                                <svg class="dark-mode__icon dark-mode__sun hidden-element" title="تم روشن">
+                                    <use xlink:href="fonts/sprite.svg#icon-sun"></use>
+                                </svg>
+                            </label>
+                        </div>
+                        <a href="baskit.html" class="nav-link position-relative">
+                            <svg class="haeder__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-basket"></use>
+                            </svg>
+                            <span class="count-user-baskit">0</span>
+                        </a>
+                        <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-search">
+                            <svg class="haeder__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-search"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--END TOP NAVBAR -->
+
+    <!-- Header -->
+    <div class="container-fluid px-0">
+        <div class="header">
+            <!--LANDING -->
+            <div class="swiper slider-header">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/store/hero-bg.jpg" alt="Fruit bg 1" class="swiper__img">
+
+                        <div class="container w-100 h-100 px-0">
+                            <div
+                                class="landing justify-content-lg-center align-items-lg-start justify-content-center align-items-center">
+                                <p class="landing__text mb-0 ">تازه و ارگانیک</p>
+                                <h2 class="landing__title ">میوه های فصلی خوشمزه</h2>
+                                <div class="landing__btn-customes">
+                                    <button class="btn-custome btn-custome-orange">مجموعه میوه</button>
+                                    <button class="btn-custome btn-custome-outline">ارتباط با ما</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/store/hero-bg-2.jpg" alt="Fruit bg 2" class="swiper__img">
+
+                        <div class="container w-100 h-100 px-0">
+                            <div class="landing  justify-content-center align-items-center">
+                                <p class="landing__text mb-0 ">هر روز تازه </p>
+                                <h2 class="landing__title "> مجموعه 100% ارگانیک</h2>
+                                <div class="landing__btn-customes ">
+                                    <button class="btn-custome btn-custome-orange">از فروشگاه دیدن کنید</button>
+                                    <button class="btn-custome btn-custome-outline">ارتباط با ما</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/store/hero-bg-3.jpg" alt="Fruit bg 3" class="swiper__img">
+
+                        <div class="container w-100 h-100 px-0">
+                            <div
+                                class="landing justify-content-lg-center align-items-lg-end justify-content-center align-items-center ">
+                                <p class="landing__text mb-0">فروش مگا ادامه دارد!</p>
+                                <h2 class="landing__title">تخفیف تیر را دریافت کنید</h2>
+                                <div class="landing__btn-customes">
+                                    <button class="btn-custome btn-custome-orange">از فروشگاه دیدن کنید </button>
+                                    <button class="btn-custome btn-custome-outline">ارتباط با ما</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!--LANDING -->
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Our Services -->
+    <div class="container-fluid px-0">
+        <div class="services row justify-content-center justify-contentmd-between gap-4 gap-lg-0  mx-0">
+            <div class="services__item col-12 col-md-5 col-lg-4 px-0">
+                <svg class="services__icon">
+                    <use xlink:href="fonts/sprite.svg#icon-truck"></use>
+                </svg>
+                <h3 class="servicess__title my-0">ارسال رایگان</h3>
+                <p class="servicess__text my-0">هنگام سفارش بالای 750 هزار تومان</p>
+            </div>
+
+            <div class="services__item col-12 col-md-5 col-lg-4 px-0">
+                <svg class="services__icon">
+                    <use xlink:href="fonts/sprite.svg#icon-phone"></use>
+                </svg>
+                <h3 class="servicess__title my-0">پشتیبانی هر روزه</h3>
+                <p class="servicess__text my-0"> تمام روز پشتیبانی دریافت کنید </p>
+            </div>
+
+            <div class="services__item col-12 col-md-5 col-lg-4 px-0">
+                <svg class="services__icon">
+                    <use xlink:href="fonts/sprite.svg#icon-loop2"></use>
+                </svg>
+                <h3 class="servicess__title my-0">بازپرداخت</h3>
+                <p class="servicess__text my-0">بازپرداخت ظرف 3 روز!</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Our Services -->
+
+    <!-- TITLE FOT EVERY SECTION -->
+    <div class="container-fluid px-0">
+        <div class="description">
+            <h2 class="description__title">
+                <span class="description__title-text">محصولات</span>
+                <span class="orange-text">ما</span>
+                <div class="small-line"></div>
+            </h2>
+            <p class="description__text">خیلی راحت سفارشت رو ثبت کن و به بقیه کارهایی که داری برس
+                تجربه‌‌ی خرید آسان میوه همراه با خدماتی ویژه و ارسال رایگان در مناطق منتخب و بسته </p>
+        </div>
+    </div>
+    <!-- END TITLE FOT EVERY SECTION -->
+
+    <!-- PRODUCTS -->
+    <div class="container products-container  px-0 ">
+        <div class="cards products-wrapper row justify-content-center  align-items-center px-4 px-md-0 mx-0">
+            <div class="col-8 col-sm-5 col-lg-4 mb-5">
+                <div class="cards__item ">
+                    <img src="img/store/products/product-img-1.jpg" alt="Strawberry" class="cards__img">
+                    <h4 class="cards__name">توت فرنگی</h4>
+                    <p class="prducts__units">
+                        <span class="cards__every-text">هر</span>
+                        <span class="peoducts__per-unit">کیلوگرم</span>
+                    </p>
+                    <h3 class="cards__price">35000</h3>
+                    <a href="baskit.html" class="btn-custome btn-custome-orange">
+                        افزودن به سبد
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-basket"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-8 col-sm-5 col-lg-4 mb-5">
+                <div class="cards__item ">
+                    <img src="img/store/products/product-img-1.jpg" alt="Strawberry" class="cards__img">
+                    <h4 class="cards__name">توت فرنگی</h4>
+                    <p class="prducts__units">
+                        <span class="cards__every-text">هر</span>
+                        <span class="peoducts__per-unit">کیلوگرم</span>
+                    </p>
+                    <h3 class="cards__price">35000</h3>
+                    <a href="baskit.html" class="btn-custome btn-custome-orange">
+                        افزودن به سبد
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-basket"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-8 col-sm-5 col-lg-4 mb-5">
+                <div class="cards__item ">
+                    <img src="img/store/products/product-img-1.jpg" alt="Strawberry" class="cards__img">
+                    <h4 class="cards__name">توت فرنگی</h4>
+                    <p class="prducts__units">
+                        <span class="cards__every-text">هر</span>
+                        <span class="peoducts__per-unit">کیلوگرم</span>
+                    </p>
+                    <h3 class="cards__price">35000</h3>
+                    <a href="baskit.html" class="btn-custome btn-custome-orange">
+                        افزودن به سبد
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-basket"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-8 col-sm-5 col-lg-4 mb-5">
+                <div class="cards__item ">
+                    <img src="img/store/products/product-img-1.jpg" alt="Strawberry" class="cards__img">
+                    <h4 class="cards__name">توت فرنگی</h4>
+                    <p class="prducts__units">
+                        <span class="cards__every-text">هر</span>
+                        <span class="peoducts__per-unit">کیلوگرم</span>
+                    </p>
+                    <h3 class="cards__price">35000</h3>
+                    <a href="baskit.html" class="btn-custome btn-custome-orange">
+                        افزودن به سبد
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-basket"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="shop.html" class="btn-custome btn-custome-orange mx-auto cards__btn-custome col-8 col-sm-5 col-lg-3">همه
+            محصولات
+        </a >
+    </div>
+    <!-- END PRODUCTS -->
+
+
+    <!-- DEAL SECTION -->
+    <div class="container-fluid px-0">
+        <section class="deal-wrapper ">
+            <div class="container px-0">
+                <div class="deal row mx-0 px-0">
+                    <div class="deal__left col-12 col-lg-6">
+                        <img src="img/store/a.png" alt="Hikan Strwaberry" class="deal__img">
+                        <div class="deal__circle">
+                            <span class="deal__value-deal">30%</span>
+                            <span class="deal__unit-deal">هر کیلوگرم</span>
+                        </div>
+                    </div>
+                    <div class="deal__right  col-12 col-lg-6 ">
+                        <h3 class="deal__title">
+                            <span class="discount__title-text">معامله</span>
+                            <span class="orange-text">ماه</span>
+                        </h3>
+                        <p class="deal__text">توت فرنگی هیکان</p>
+                        <p class="paragraph">
+                            گیاهی نهان‌دانه از تیرهٔ گل سرخ است. رشد این گیاه علفی پایا در آب و هوای معتدل گرم و در بستر
+                            غنی از گیاخاک و خاک اسیدی بسیار خوب است. گل‌های توت‌فرنگی نسبت به سرما به شدت حساس هستند ولی
+                            عطر و طعم نهنج (قسمت خوراکی گیاه) با انجماد از بین نمی‌رود
+                        </p>
+                        <div class="counter-boxes">
+                            <div class="counter-boxes__item">
+                                <span class="counter-boxes__value orange-text">00</span>
+                                <span class="cunter-boxes__time-name">ثانیه</span>
+                            </div>
+                            <div class="counter-boxes__item">
+                                <span class="counter-boxes__value orange-text">00</span>
+                                <span class="cunter-boxes__time-name">دقیقه</span>
+                            </div>
+                            <div class="counter-boxes__item">
+                                <span class="counter-boxes__value orange-text">00</span>
+                                <span class="cunter-boxes__time-name">ساعت</span>
+                            </div>
+                            <div class="counter-boxes__item">
+                                <span class="counter-boxes__value orange-text">00</span>
+                                <span class="cunter-boxes__time-name">روز</span>
+                            </div>
+                        </div>
+                        <button class="btn-custome btn-custome-orange">افزودن به سبد خرید</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END DEAL SECTION -->
+
+
+    <!-- OUT-TEAM -->
+    <div class="container-fluid px-0">
+        <section class="our-team">
+            <div class="container">
+                <div class="our-team__wrapper">
+                    <div class="swiper our-team__slider our-team__slider-container">
+                        <div class="swiper-wrapper our-team__slider-wrapper">
+                            <div class="swiper-slide our-team__slide">
+                                <img src="img/store/avaters/avatar2.png" alt="admin 1" class="our-team__img">
+                                <h4 class="our-team__name">مهدی ایلخانی نسب</h4>
+                                <p class="our-team__role">مدیر فروشگاه</p>
+                                <p class="our-team__description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                                    چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                    سطرآنچنان که لازم است </p>
+                                <p class="our-team__quo-icon">&rdquo;</p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END OUT-TEAM -->
+
+
+    <!--      STYLE OF THIS SECTION IS COMPILE WHIT DEAL SECTION  -->
+    <!-- INTRODUCTIONS SECTION   -->
+    <div class="container-fluid px-0">
+        <section class="introduction-wrapper ">
+            <div class="container px-0">
+                <div class="introduction row mx-0 px-0">
+                    <div class="introduction__right col-12 col-lg-6  px-4">
+                        <p class="introduction__text">از سال 1395</p>
+                        <h3 class="introduction__title">
+                            <span class="introduction__title-text">ما شرکت </span>
+                            <span class="orange-text">فروتخا</span>
+                        </h3>
+                        <p class="paragraph">
+                            گیاهی نهان‌دانه از تیرهٔ گل سرخ است. رشد این گیاه علفی پایا در آب و هوای معتدل گرم و در بستر
+                            غنی از گیاخاک و خاک اسیدی بسیار خوب است. گل‌های توت‌فرنگی نسبت به سرما به شدت حساس هستند ولی
+                            عطر و طعم نهنج (قسمت خوراکی گیاه) با انجماد از بین نمی‌رود
+                        </p>
+                        <button class="btn-custome btn-custome-orange">بیشتر بدانید</button>
+                    </div>
+                    <div class="introduction__left d-none d-lg-flex col-lg-6 px-0">
+                        <video class="introduction__video" controls muted autoplay loop>
+                            <source src="img/store/video/stock-footage-woman-picking-red-apple-at-the-garden.mp4"
+                                type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END INTRODUCTIONS SECTION -->
+
+
+
+    <!-- DISCOUNT SECTION -->
+    <div class="container-fluid px-0">
+        <section class="discount">
+            <div class="container px-0">
+                <div class="discount__content">
+                    <h2 class="discount__title">منتظر فروش بزرگ <span class="orange-text">مرداد</span> ماه باشید.
+                        <span class="orange-text">تخفیفات</span> بزرگ در مرداد ماه ...
+                    </h2>
+                    <p class="discount__text">
+                        <span>تخفیف تا</span>
+                        <span class="discount__value orange-text">50 %</span>
+                    </p>
+
+                    <button class="btn-custome btn-custome-orange">همین حالا خرید کن</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END DISCOUNT SECTION -->
+
+    <!-- TITLE FOT EVERY SECTION -->
+    <div class="container-fluid px-0">
+        <div class="description">
+            <h2 class="description__title">
+                <span class="description__title-text">خبر های</span>
+                <span class="orange-text">ما</span>
+                <div class="small-line"></div>
+            </h2>
+            <p class="description__text">خیلی راحت سفارشت رو ثبت کن و به بقیه کارهایی که داری برس
+                تجربه‌‌ی خرید آسان میوه همراه با خدماتی ویژه و ارسال رایگان در مناطق منتخب و بسته </p>
+        </div>
+    </div>
+    <!-- END TITLE FOT EVERY SECTION -->
+
+
+    <!-- NEWS -->
+    <div class="container article-container px-0 my-4 d-flex flex-column justify-content-center align-items-center">
+        <div class="cards row article-wrapper justify-content-center align-items-center  gap-4 px-md-0 mx-0">
+
+            <div class="cards__item news__item col-8 col-sm-5 col-lg-3 flex-sm-grow-1">
+                <img src="img/store/latest-news/news-bg-1.jpg" alt="Strawberry" class="cards__img">
+                <h4 class="cards__title px-4 my-0">در پاییز بیهوده به دنبال میوه روی آن خواهید بود.</h4>
+                <p class="cards__admin-date px-4 my-0">
+                    <span class="cards__admin-name">
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-user"></use>
+                        </svg>
+                        کوثر بهشتی
+                    </span>
+                    <span class="cards__date">
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-calendar"></use>
+                        </svg>
+                        15 مرداد 1401
+                    </span>
+                </p>
+                <p class="cards__short-desc px-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                    از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                <a href="single-news.html" class="cards__link px-4">خبر های بیشتر &larr;</a>
+            </div>
+            <div class="cards__item news__item col-8 col-sm-5 col-lg-3 flex-sm-grow-1">
+                <img src="img/store/latest-news/news-bg-1.jpg" alt="Strawberry" class="cards__img">
+                <h4 class="cards__title px-4 my-0">در پاییز بیهوده به دنبال میوه روی آن خواهید بود.</h4>
+                <p class="cards__admin-date px-4 my-0">
+                    <span class="cards__admin-name">
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-user"></use>
+                        </svg>
+                        کوثر بهشتی
+                    </span>
+                    <span class="cards__date">
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-calendar"></use>
+                        </svg>
+                        15 مرداد 1401
+                    </span>
+                </p>
+                <p class="cards__short-desc px-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                    از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                <a href="single-news.html" class="cards__link px-4">خبر های بیشتر &larr;</a>
+            </div>
+            <div class="cards__item news__item col-8 col-sm-5 col-lg-3 flex-sm-grow-1">
+                <img src="img/store/latest-news/news-bg-1.jpg" alt="Strawberry" class="cards__img">
+                <h4 class="cards__title px-4 my-0">در پاییز بیهوده به دنبال میوه روی آن خواهید بود.</h4>
+                <p class="cards__admin-date px-4 my-0">
+                    <span class="cards__admin-name">
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-user"></use>
+                        </svg>
+                        کوثر بهشتی
+                    </span>
+                    <span class="cards__date">
+                        <svg class="cards__icon">
+                            <use xlink:href="fonts/sprite.svg#icon-calendar"></use>
+                        </svg>
+                        15 مرداد 1401
+                    </span>
+                </p>
+                <p class="cards__short-desc px-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                    از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                <a href="single-news.html" class="cards__link px-4">خبر های بیشتر &larr;</a>
+            </div>
+        </div>
+        <button class="btn-custome btn-custome-orange  cards__btn-custome col-8 col-sm-7 col-lg-4 ">خبر های بیشتر
+        </button>
+    </div>
+    <!-- END NEWS -->
+
+    <!-- SUPPORTERS -->
+    <div class="container-fluid px-0">
+        <div class="supporters">
+            <div class="container px-0">
+                <div class="swiper supporters__slider">
+                    <div class="swiper-wrapper supporters__wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/store/company-logos/1.png" alt="Company logo 1" class="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/store/company-logos/2.png" alt="Company logo 2" class="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/store/company-logos/3.png" alt="Company logo 3" class="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/store/company-logos/4.png" alt="Company logo 4" class="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/store/company-logos/5.png" alt="Company logo 5" class="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SUPPORTERS -->
+
+    <!-- FOOTER -->
+    <div class="container-fluid px-0">
+        <footer class="footer dark">
+            <div class="container px-0">
+                <div class="footer__wrapper">
+                    <div class="footer__content">
+                        <div class="footer__about-us">
+                            <h3 class="footer__title"> درباره ما</h3>
+                            <p class="paragraph">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                از
+                                طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                برای
+                                شرایط فعلی تکنولوژی مورد نیاز </p>
+                        </div>
+                        <div class="footer__contact-us">
+                            <h3 class="footer__title"> تماس ما</h3>
+                            <address class="footer_address">شیراز میدان ارم خوابگاه شهید دستغیب</address>
+                            <p class="footer__email">mehdiilkhaninasab7@gmail.com</p>
+                            <p class="footer__phone">09901394741</p>
+                        </div>
+                        <div class="footer__pages">
+                            <h3 class="footer__title">صفحات</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="index.html" class="footer__link">خانه</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="about-us.html" class="footer__link">درباه ما</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="shop.html" class="footer__link">محصولات</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="article.html" class="footer__link">خبر ها</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="contact-us.html" class="footer__link">ارتباط با ما</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__Subscribe ">
+                            <h3 class="footer__title"> اشتراک در </h3>
+                            <p class="paragraph">برای دریافت آخرین به روز رسانی ها در لیست پستی ما مشترک شوید.</p>
+                            <form action="#" class="form-default ">
+                                <div class="flex-grow-1">
+                                    <input type="email" name="" id="email" placeholder="ایمیل"
+                                        class="form-control form-default__input " required>
+                                    <label for="email" class="form-default__label">ایمیل</label>
+                                </div>
+                                <button class="form-default__btn-custome " type="submit">
+                                    <svg class="form-default__icon">
+                                        <use xlink:href="fonts/sprite.svg#icon-paper-plane"></use>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        <p class="copyright " id="copyright">
+
+                        </p>
+
+                        <div class="footer__social-box">
+                            <svg class="footer__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-instagram"></use>
+                            </svg>
+                            <svg class="footer__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-telegram"></use>
+                            </svg>
+                            <svg class="footer__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-github"></use>
+                            </svg>
+                            <svg class="footer__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-linkedin2"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- MODALS -->
+    <div class="modal dark" id="modal-search">
+        <div class="modal-dialog modal-lg modal-dialog-centered ">
+            <div class="container modal-content modal-search">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">جستجوی محصول</h4>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="#" class="form-default ">
+                        <div class="flex-grow-1">
+                            <input type="search" name="" id="search" placeholder="کلمه کلیدی را وارد کنید"
+                                class="form-control form-default__input" required>
+                            <label for="search" class="form-default__label">جستجو</label>
+                        </div>
+                        <button class="form-default__btn-custome" type="submit">
+                            <svg class="form-default__icon">
+                                <use xlink:href="fonts/sprite.svg#icon-paper-plane"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer justify-content-center">
+                    <p class="text-center paragraph px-0"><span class="orange-text">فروتخا</span> بزرگ ترین فروشگاه میوه
+                        و تر بار کشور
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- END MODALS -->
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="js/libraries/swiper.js"></script>
+    <script src="js/libraries/typewriter.js"></script>
+    <script src="js/store/app.js"></script>
+    
+</body>
+
+</html>

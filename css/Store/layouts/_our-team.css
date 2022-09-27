@@ -1,0 +1,31 @@
+.our-team__wrapper{
+    padding: 6rem 0;
+}
+
+.our-team__img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.our-team__name{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.our-team__role{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--gray);
+}
+.our-team__description{
+    font-size: 1.7rem;
+    color: var(--gray);
+    text-align: center;
+}
+
+.our-team__quo-icon{
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--orange);
+}

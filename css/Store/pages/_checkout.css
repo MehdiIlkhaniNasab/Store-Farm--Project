@@ -1,0 +1,24 @@
+.info{
+    padding: 8rem 0;
+}
+
+.order__link{
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.order__icon{
+    width: 3rem;
+    height: 3rem;
+    fill: var(--success);
+}
+
+/* DARK MODE */
+.dark .table {
+    color: var(--light);
+}
+
+.dark .card-body{
+    background-color: var(--secondry);
+}
+/* END DARK MODE */

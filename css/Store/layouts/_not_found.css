@@ -1,0 +1,33 @@
+.not-found{
+    padding: 8rem 0;
+}
+
+.not-found__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.not-found__icon{
+    fill: var(--secondry);
+    width: 15rem;
+    height: 15rem;
+}
+
+.font-found__title{
+    font-size: 6rem;
+    color: var(--secondry);
+}
+
+
+/* DARK MODE */
+.dark .not-found__icon{
+    fill: var(--secondry-light);
+}
+
+.dark .font-found__title{
+    color: var(--light);
+}
+/* END DARK MODE */

@@ -1,0 +1,19 @@
+.baskit{
+    padding: 8rem 0;
+    
+}
+
+
+
+.product__img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+
+/* DARK MODE */
+.dark .table {
+    color: var(--light);
+}
+/* END DARK MODE */

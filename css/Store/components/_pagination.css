@@ -1,0 +1,26 @@
+.pagination{
+    margin: 8rem 0 0;
+}
+
+.page-link{
+    color: var(--secondry);
+}
+
+
+.active .page-link{
+    background-color: var(--orange) !important;
+    border: 1px solid var(--orange) !important;
+}
+
+/* DARK MODE */
+.dark .page-link{
+    background-color: var(--secondry) !important;
+    border: 1px solid var(--secondry-light) !important;
+    color: var(--light);
+}
+
+.dark .active .page-link{
+    background-color: var(--orange) !important;
+    border: 1px solid var(--orange) !important;
+}
+/* END DARK MODE */

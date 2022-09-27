@@ -1,0 +1,122 @@
+.form-default {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    color: var(--white);
+    opacity: 0.7;
+    padding: 2rem ;
+    border-radius: 3px;
+    border: 1px solid var(--light);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.05);
+    background-color: var(--white);
+}
+
+.form-default__input {
+    padding: 1rem;
+    font-size: inherit;
+    font-family: inherit;
+    text-align: right;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid var(--success);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--light);
+}
+
+.form-default__input:focus{
+    background-color: var(--light);
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+
+.form-default__input:invalid {
+    border-bottom: 3px solid var(--danger);
+
+}
+.form-default__input:valid {
+    border-bottom: 3px solid var(--success);
+}
+
+.form-default__label {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition: transform 0.4s;
+}
+
+.form-default__input:placeholder-shown + .form-default__label {
+
+    transform: translateY(-4rem);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.form-default__btn-custome {
+    width: 7rem;
+    height: 5rem;
+    
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: var(--orange);
+    cursor: pointer;
+    transition: all 0.4s;
+    border-bottom: 3px solid transparent;
+    background-color: var(--light);
+}
+
+ .form-default__btn-custome{
+    background-color: var(--secondry-light);
+}
+
+
+.form-default__btn-custome .form-default__icon {
+    fill: currentColor;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.form-default__btn-custome:hover {
+    background-color: var(--orange);
+    color: var(--secondry);
+}
+
+
+/* DARK MODE */
+.dark .form-default{
+    background-color: var(--secondry);
+    border: none;
+    padding: 0;
+}
+
+.dark .form-default__input {
+    background-color: var(--secondry-light);
+}
+
+
+.dark .form-default__input:focus{
+    background-color: var(--secondry-light);
+    color: var(--white) !important;
+}
+
+.dark  .form-default__btn-custome{
+    background-color: var(--secondry-light);
+}
+
+.dark .form-default__btn-custome:hover {
+    background-color: var(--orange);
+    color: var(--light);
+}
+
+/* END DARK MODE */

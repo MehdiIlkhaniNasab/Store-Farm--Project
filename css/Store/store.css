@@ -1,0 +1,34 @@
+/* ABSTRACTS CSS */
+@import 'abstract/_variable.css';
+
+
+
+/* BASE CSS */
+@import 'base/_animation.css';
+@import 'base/_font-face.css';
+@import 'base/_typographi.css';
+@import 'base/_utilities.css';
+
+
+/* COMPONENTS */
+@import 'components/_btn.css'; 
+@import 'components/_cards.css'; 
+@import 'components/_forms.css'; 
+@import 'components/_landpage.css'; 
+@import 'components/_modal.css'; 
+@import 'components/_navbar.css';
+@import 'components/_slider.css'; 
+
+
+
+/* LAYOUTS CSS */
+@import 'layouts/_footer.css';
+@import 'layouts/_header.css';
+@import 'layouts/_supporters.css';
+
+
+.dark{
+    background-color: var(--secondry);
+    color: var(--light);
+    transition: all 0.4s;
+}
