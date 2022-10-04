@@ -145,6 +145,12 @@
         height: 12rem;
     }
 
+    .deal__img,
+    .introduction__img {
+        width: 45rem;
+        height: 30rem;
+    }
+
     .counter-boxes__item {
         width: 10rem;
         height: 10rem;
